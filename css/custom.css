@@ -1,0 +1,76 @@
+body{
+  font-family: "Rayleway" sans-serif;
+  font-weight: 600;
+  color: white;
+  font-size: 30px;
+  font-style: italic;
+  background-color: rgb(192, 190, 190);
+  text-align: center;
+}
+
+#avatarImage img{
+  display: block; /* Ensure the image is treated as a block element */
+  margin: 0 auto; /* Set left and right margins to auto */
+}
+
+#avatarImage{
+  display: block; 
+  margin: 0 auto;
+}
+
+#avatarImag img{
+width: 300px;
+height: 300px;
+}
+#editForm{
+  text-align: center;
+  color: black;
+}
+
+.buttonSection{
+  width: 100%;
+  padding: 2rem;
+  margin-top: -65px;
+}
+
+.roundButton{
+  border-radius: 50%;
+  background-color: white;
+  border: 0;
+  width: 5rem;
+  height: 5rem;
+  font-size: 1rem;
+}
+
+#homeLink{
+  float: left;
+  margin-left: 150px;
+}
+
+#editContact{
+  float: left;
+  margin-left:335px;
+}
+
+#deleteContact{
+    float: left;
+    
+    margin-left: 300px;
+  }
+
+  .p{
+    color: black;
+    text-align: center;
+  }
+
+  .form {
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 80vh; /* Set the container height to the full viewport height */
+}
+
+#table tr{
+  margin-left: 50px;
+
+}
